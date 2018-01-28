@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>Example 10.02 - Bump maps</title>
+    <script src="js/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v1.14.0/dist/aframe-extras.min.js"></script>
+</head>
+
+<body>
+<a-scene>
+
+    <!-- Ceiling -->
+    <a-entity static-body geometry="primitive: box; depth: 55; height: 0.1; width: 160" position="0 14 5" material="shader: flat; side: double; opacity: 1;
+src: url(images/wall.jpg); repeat: 20 12"></a-entity>
+
+    <!-- Floor -->
+    <a-entity static-body geometry="primitive: box; depth: 50; height: 0.1; width: 160" position="0 -0.5 5" material="shader: flat; side: double; opacity: 1;
+src: url(images/floor.jpg); repeat: 12 5"></a-entity>
+
+
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 14; width: 50" position="-80 6.5 5" rotation="0 90 0" material="shader: standard;
+roughness: 1; src: url(images/wall.jpg); repeat: 4 2"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 14; width: 50" position="80 6.5 5" rotation="0 90 0" material="shader: standard;
+roughness: 1; src: url(images/wall.jpg); repeat: 4 2"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 14; width: 160" position="0 6.5 -20" rotation="0 0 0" material="shader: standard;
+roughness: 1; src: url(images/wall.jpg); repeat: 12 2"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 14; width: 160" position="0 6.5 30" rotation="0 0 0" material="shader: standard;
+roughness: 1; src: url(images/wall.jpg); repeat: 12 2"></a-entity>
+
+</a-scene>
+</body>
+</html>
