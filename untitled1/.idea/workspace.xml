@@ -17,38 +17,8 @@
       <file leaf-file-name="test1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="67" column="4" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="100747_b.mtl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coffee_table/100747_b.mtl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AngryBirdsRedsMask.mtl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/AngryBirdsRedsMask.mtl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AngryBirdsRedsMask.obj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/AngryBirdsRedsMask.obj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="1063">
+              <caret line="55" column="112" lean-forward="true" selection-start-line="55" selection-start-column="112" selection-end-line="55" selection-end-column="112" />
               <folding />
             </state>
           </provider>
@@ -68,6 +38,7 @@
       <find>initStats</find>
       <find>createMesh</find>
       <find>/js/</find>
+      <find>light</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -88,9 +59,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="449" />
+    <option name="x" value="358" />
+    <option name="y" value="7" />
     <option name="width" value="1400" />
-    <option name="height" value="990" />
+    <option name="height" value="613" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -200,12 +172,12 @@
       <updated>1517008162867</updated>
       <workItem from="1517008164215" duration="19122000" />
       <workItem from="1517319502486" duration="3477000" />
-      <workItem from="1517509253278" duration="3439000" />
+      <workItem from="1517509253278" duration="9662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26038000" />
+    <option name="totallyTimeSpent" value="32261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
@@ -315,8 +287,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="67" column="4" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+        <state relative-caret-position="1063">
+          <caret line="55" column="112" lean-forward="true" selection-start-line="55" selection-start-column="112" selection-end-line="55" selection-end-column="112" />
           <folding />
         </state>
       </provider>

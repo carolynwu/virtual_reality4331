@@ -1,5 +1,4 @@
 <html>
-
 <head>
     <title>Example 10.02 - Bump maps</title>
     <script src="js/aframe.min.js"></script>
@@ -7,8 +6,9 @@
     <!--<script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v1.14.0/dist/aframe-extras.min.js"></script>-->
 </head>
 
-<body>
+<body >
 <a-scene>
+
     <script>
         AFRAME.registerComponent('sun-position-setter', {
             init: function () {
@@ -44,48 +44,49 @@
         <audio id="blip1" src="images/horned_owl.wav"></audio>
     </a-assets>
 
-    <a-entity position="54 1.5 12">
-    <a-camera universal-controls wasd-controls="acceleration: 400">
-        <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
-                              radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat" position="0 0 -0.75"></a-entity>
-    </a-camera>
+    <a-entity>
+        <a-camera universal-controls="" wasd-controls="acceleration:400" position="0 1.6 0" rotation="10.542423430407148 175.32508531003194 0" camera="" look-controls="" data-aframe-inspector-original-camera="">
+            <a-entity raycaster="far:150;objects:.intersectable" cursor="" geometry="primitive:ring;radiusOuter:0.015;radiusInner:0.01" material="color:#283644;shader:flat"></a-entity>
+        </a-camera>
     </a-entity>
-        <a-entity id="sky" geometry="primitive: sphere; radius: 200;" material="shader: sky; side: back" sun-position-setter>
-            <!--Position the sun-->
-            <a-entity id="orbit">
-                <a-animation attribute="rotation" from="0 0 0" to="0 270 0" dur="100000" repeat="100"></a-animation>
-            </a-entity>
+
+    <a-entity id="sky" geometry="primitive:sphere;radius:200" material="sunPosition:-0.9997454282845177 0.022562770756406943 -1;shader:sky;side:back" sun-position-setter="">
+        <!--Position the sun-->
+        <a-entity id="orbit" rotation="0 1.3301069669709749 0">
+            <a-animation attribute="rotation" from="0 0 0" to="0 270 0" dur="100000" repeat="100"></a-animation>
         </a-entity>
-
-
-    <a-box material="color:tomato;transparent:true;opacity:0" depth="2" height="2" width="2" sound="src: url(images/horned_owl.wav); on: click" class="intersectable" position="55 1.5 6"></a-box>
-
-    <a-animation begin="click" attribute="position" from="45 0 6" to= "45 0 -10" dur="3000"></a-animation>
+    </a-entity>
 
 
 
-    <a-obj-model src="max1/APezzi1.obj" mtl="max1/APezzi1.mtl" position="8 1.5 6" scale="0.005 0.005 0.005"></a-obj-model>
-    
 
-    <a-obj-model src="sofa/sofa.obj" position="25 0 2" scale="0.1 0.1 0.1"></a-obj-model>
-    <a-obj-model src="coffee_table/100747_b.obj"  mtl="coffee_table/100747_b.mtl" position="28 0 2" scale="0.1 0.1 0.1"></a-obj-model>
+    <a-animation begin="click" attribute="position" from="45 0 6" to="45 0 -10" dur="3000"></a-animation>
+
+
+
+    <a-obj-model src="max1/APezzi1.obj" mtl="max1/APezzi1.mtl" position="8 1.5 6" scale="0.005 0.005 0.005" material="" obj-model=""></a-obj-model>
+
+
+    <a-obj-model src="sofa/sofa.obj" position="25 0 2" scale="0.1 0.1 0.1" material="" obj-model=""></a-obj-model>
+    <a-obj-model src="coffee_table/100747_b.obj" mtl="coffee_table/100747_b.mtl" position="28 0 2" scale="0.1 0.1 0.1" material="" obj-model=""></a-obj-model>
     <!-- Ceiling -->
-    <a-entity static-body geometry="depth:55;height:0.1;width:160" position="0 13.526 7.365" material="shader:flat;side:double;src:images/wall.jpg;repeat:20 12"></a-entity>
+    <a-entity static-body="" geometry="depth:50.08;height:0.1;width:160" position="0.398 13.546 4.911" material="repeat:20 12;shader:flat;side:double;src:images/wall.jpg"></a-entity>
+
 
     <!-- Floor -->
-    <a-entity static-body geometry="primitive: box; depth: 50; height: 0.1; width: 160" position="0 -0.5 5" material="shader: flat; side: double; opacity: 1;
-src: url(images/floor.jpg); repeat: 12 5"></a-entity>
+    <a-entity static-body="" geometry="depth:50;height:0.1;width:160" position="0 -0.5 5" material="shader:flat;side:double;src:images/floor.jpg;repeat:12 5"></a-entity>
 
 
-    <a-entity static-body geometry="primitive: box; depth: 1; height: 14; width: 50" position="-80 6.5 5" rotation="0 90 0" material="shader: standard;
-roughness: 1; src: url(images/wall.jpg); repeat: 4 2"></a-entity>
-    <a-entity static-body geometry="primitive: box; depth: 1; height: 14; width: 50" position="80 6.5 5" rotation="0 90 0" material="shader: standard;
-roughness: 1; src: url(images/wall.jpg); repeat: 4 2"></a-entity>
-    <a-entity static-body geometry="primitive: box; depth: 1; height: 14; width: 160" position="0 6.5 -20" rotation="0 0 0" material="shader: standard;
-roughness: 1; src: url(images/wall.jpg); repeat: 12 2"></a-entity>
-    <a-entity static-body geometry="primitive: box; depth: 1; height: 14; width: 160" position="0 6.5 30" rotation="0 0 0" material="shader: standard;
-roughness: 1; src: url(images/wall.jpg); repeat: 12 2"></a-entity>
+    <a-entity static-body="" geometry="height:14;width:50" position="-80 6.5 5" rotation="0 90 0" material="roughness:1;src:images/wall.jpg;repeat:4 2"></a-entity>
+    <a-entity static-body="" geometry="height:14;width:50" position="80 6.5 5" rotation="0 90 0" material="roughness:1;src:images/wall.jpg;repeat:4 2"></a-entity>
+    <a-entity static-body="" geometry="height:14;width:160" position="0 6.5 -20" material="roughness:1;src:images/wall.jpg;repeat:12 2"></a-entity>
+    <a-entity static-body="" geometry="height:14;width:160" position="0 6.5 30" material="roughness:1;src:images/wall.jpg;repeat:12 2"></a-entity>
+
+    <!--light-->
+
+    <a-light type="spot" color="#F5F5F5" position="-11.633 -1.319 69.044" light="type:ambient"></a-light>
 
 </a-scene>
+
 </body>
 </html>
