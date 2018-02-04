@@ -58,17 +58,23 @@
     </a-entity>
 
 
+    <!--pillars -->
+    <a-cylinder position="121 5.096 -9.648" raidus="1" height="12" color="magenta"  ></a-cylinder>
+    <a-cylinder position="118 5.096 16.214" radius="1"  height="12" color="magenta"></a-cylinder>
 
 
-    <a-animation begin="click" attribute="position" from="45 0 6" to="45 0 -10" dur="3000"></a-animation>
+    <!-- banner -->
+    <a-box color="tomato" position="118.987 9.805 2.878" rotation="0 0 0"  depth="24.5" height="5" width="2"></a-box>
+    <a-text value="Welcome Back!" position="121.311 10.302 11.732" rotation="0 90 0"  width="60" color="#ff80c0">  </a-text>
 
 
-
-    <a-obj-model src="max1/APezzi1.obj" mtl="max1/APezzi1.mtl" position="8 1.5 6" scale="0.005 0.005 0.005" material="" obj-model=""></a-obj-model>
-
-
-    <a-obj-model src="sofa/sofa.obj" position="25 0 2" scale="0.1 0.1 0.1" material="" obj-model=""></a-obj-model>
     <a-obj-model src="coffee_table/100747_b.obj" mtl="coffee_table/100747_b.mtl" position="28 0 2" scale="0.1 0.1 0.1" material="" obj-model=""></a-obj-model>
+
+    <!--plane-->
+    <a-entity static-body="" geometry="depth:300;width:300;height:0.1" position="2.774 -1.035 7.582" material="shader:flat;side:double;src:images/ground.jpeg"></a-entity>
+
+
+
     <!-- Ceiling -->
     <a-entity static-body="" geometry="depth:50.08;height:0.1;width:160" position="0.398 13.546 4.911" material="repeat:20 12;shader:flat;side:double;src:images/wall.jpg"></a-entity>
 
@@ -82,9 +88,11 @@
     <a-entity static-body="" geometry="height:14;width:160" position="0 6.5 -20" material="roughness:1;src:images/wall.jpg;repeat:12 2"></a-entity>
     <a-entity static-body="" geometry="height:14;width:160" position="0 6.5 30" material="roughness:1;src:images/wall.jpg;repeat:12 2"></a-entity>
 
+
     <!--light-->
 
     <a-light type="spot" color="#F5F5F5" position="-11.633 -1.319 69.044" light="type:ambient"></a-light>
+
 
 </a-scene>
 
