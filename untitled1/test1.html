@@ -68,7 +68,7 @@
     <a-text value="Welcome Back!" position="121.311 10.302 11.732" rotation="0 90 0"  width="60" color="#ff80c0">  </a-text>
 
 
-    <a-obj-model src="coffee_table/100747_b.obj" mtl="coffee_table/100747_b.mtl" position="28 0 2" scale="0.1 0.1 0.1" material="" obj-model=""></a-obj-model>
+
 
     <!--plane-->
     <a-entity static-body="" geometry="depth:300;width:300;height:0.1" position="2.774 -1.035 7.582" material="shader:flat;side:double;src:images/ground.jpeg"></a-entity>
@@ -76,22 +76,66 @@
 
 
     <!-- Ceiling -->
-    <a-entity static-body="" geometry="depth:50.08;height:0.1;width:160" position="0.398 13.546 4.911" material="repeat:20 12;shader:flat;side:double;src:images/wall.jpg"></a-entity>
 
 
-    <!-- Floor -->
-    <a-entity static-body="" geometry="depth:50;height:0.1;width:160" position="0 -0.5 5" material="shader:flat;side:double;src:images/floor.jpg;repeat:12 5"></a-entity>
+
+    <!--wall-->
+    <a-entity static-body="" geometry="height:3.2;depth:0.2;width:12" position="0 1.6 0" material="repeat:12 2;roughness:1;src:images/wall.jpg"></a-entity>
 
 
-    <a-entity static-body="" geometry="height:14;width:50" position="-80 6.5 5" rotation="0 90 0" material="roughness:1;src:images/wall.jpg;repeat:4 2"></a-entity>
-    <a-entity static-body="" geometry="height:14;width:50" position="80 6.5 5" rotation="0 90 0" material="roughness:1;src:images/wall.jpg;repeat:4 2"></a-entity>
-    <a-entity static-body="" geometry="height:14;width:160" position="0 6.5 -20" material="roughness:1;src:images/wall.jpg;repeat:12 2"></a-entity>
-    <a-entity static-body="" geometry="height:14;width:160" position="0 6.5 30" material="roughness:1;src:images/wall.jpg;repeat:12 2"></a-entity>
+
+    <a-entity static-body="" geometry="width:2.8;height:3.2;depth:0.2" position="0 1.6 2.4" material="repeat:12 2;roughness:1;src:images/wall.jpg"></a-entity>
+    <a-entity static-body="" geometry="width:2.8;height:3.2;depth:0.2" position="-4.6 1.6 2.4" material="repeat:12 2;roughness:1;src:images/wall.jpg"></a-entity>
+    <a-entity static-body="" geometry="width:2.8;height:3.2;depth:0.2" position="0 1.6 3.6" material="repeat:12 2;roughness:1;src:images/wall.jpg"></a-entity>
+    <a-entity static-body="" geometry="height:0.6;width:0.8;depth:0.2" position="-1.8 2.9 3.6" material="repeat:12 2;roughness:1;src:images/wall.jpg"></a-entity>
+    <a-entity static-body="" geometry="depth:0.2;height:0.6;width:0.8" position="-1.8 2.9 2.4" material="repeat:12 2;roughness:1;src:images/wall.jpg"></a-entity>
+    <a-entity static-body="" geometry="depth:0.2;height:0.6;width:0.8" position="-2.8 2.9 2.4" material="repeat:12 2;roughness:1;src:images/wall.jpg"></a-entity>
+    <a-entity static-body="" geometry="width:1.1;height:0.6;depth:0.2" position="-2.3 2.9 3" material="repeat:12 2;roughness:1;src:images/wall.jpg" rotation="0 90 0"></a-entity>
+    <a-entity static-body="" geometry="height:3.2;depth:0.2;width:12" position="0 1.6 7.2" material="repeat:12 2;roughness:1;src:images/wall.jpg"></a-entity>
+    <a-entity static-body="" geometry="height:3.2;width:7;depth:0.2" position="-5.9 1.6 3.6" material="repeat:12 2;roughness:1;src:images/wall.jpg" rotation="0 90 0"></a-entity>
+    <a-entity static-body="" geometry="height:3.2;width:2.4;depth:0.2" position="1.4 1.6 1.3" material="repeat:12 2;roughness:1;src:images/wall.jpg" rotation="0 90 0"></a-entity>
+    <a-entity static-body="" geometry="depth:0.2;height:3.2;width:2.4" position="-2.3 1.6 1.3" material="repeat:12 2;roughness:1;src:images/wall.jpg" rotation="0 90 0"></a-entity>
+    <a-entity static-body="" geometry="height:3.2;width:3.6;depth:0.2" position="1.4 1.6 5.3" material="repeat:12 2;roughness:1;src:images/wall.jpg" rotation="0 90 0"></a-entity>
+    <a-entity static-body="" geometry="depth:0.2;height:3.2;width:3.6" position="-2.3 1.6 5.3" material="repeat:12 2;roughness:1;src:images/wall.jpg" rotation="0 90 0"></a-entity>
+    <a-entity static-body="" geometry="height:3.2;width:7;depth:0.2" position="5.9 1.6 3.6" material="repeat:12 2;roughness:1;src:images/wall.jpg" rotation="0 90 0"></a-entity>
+
 
 
     <!--light-->
-
     <a-light type="spot" color="#F5F5F5" position="-11.633 -1.319 69.044" light="type:ambient"></a-light>
+
+    <!-- floor-->
+    <a-entity position="0 -0.1 3.6" rotation="90 90 90" geometry="height:7.4;width:12;depth:0.2" mixin="null"material="repeat:12 2;roughness:1;src:images/floor.jpg"></a-entity>
+
+
+    <!--sofa-->
+    <a-entity position="5.7 0.375 5.2" rotation="0 90 0" geometry="height:0.75;depth:0.2;width:2.4" material="repeat:12 2;roughness:1;src:images/sofa1.jpeg"></a-entity>
+    <a-entity position="5.2 0.25 5.2" rotation="0 90 0" geometry="width:2;height:0.45;depth:0.8" material="repeat:12 2;roughness:1;src:images/sofa1.jpeg"></a-entity>
+    <a-entity position="5.2 0.375 4.1" rotation="0 90 0" geometry="width:0.2;height:0.75;depth:0.8" material="repeat:12 2;roughness:1;src:images/sofa.jpg"></a-entity>
+    <a-entity position="5.2 0.375 6.3" rotation="0 90 0" geometry="depth:0.8;height:0.75;width:0.2" material="repeat:12 2;roughness:1;src:images/sofa.jpg"></a-entity>
+
+    <!--coffee table -->
+    <a-obj-model src="coffee_table/100747_b.obj" mtl="coffee_table/100747_b.mtl" position="3.16 0.746 5.304" rotation="0 90 0" geometry="depth:0.6;width:0.8;height:0.45" scale="0.08 0.08 0.08"></a-obj-model>
+
+    <a-entity position="0 3.3 3.6" rotation="90 90 90" visible="false" geometry="depth:0.2;height:7.4;width:12" mixin="null"></a-entity>
+    <a-entity position="2.5 0.4 2.2" geometry="height:0.8;width:2;depth:0.6"></a-entity>
+    <a-entity position="4.8 0.75 1.4" geometry="height:0.02;depth:0.9;width:0.9"></a-entity>
+    <a-entity position="2.5 0.4 0.4" geometry="depth:0.6;height:0.8;width:2"></a-entity>
+    <a-entity position="2.5 2.8 0.4" geometry="depth:0.6;height:0.8;width:2"></a-entity>
+
+    <!-- TV-->
+    <a-entity position="1.55 1.2 5.2" rotation="0 90 0" geometry="depth:0.1;height:0.6;width:1.2"></a-entity>
+
+   <!-- TV cabinet-->
+    <a-entity position="1.7 0.25 5.2" rotation="0 90 0" geometry="width:1.5;depth:0.4;height:0.45" material="repeat:12 2;roughness:1;src:images/tc.jpg"></a-entity>
+
+
+
+    <a-entity position="4.4 0.35 1" geometry="radius:0.01;height:0.75;primitive:cylinder"></a-entity>
+    <a-entity position="4.4 0.35 1.8" geometry="primitive:cylinder;height:0.75;radius:0.01"></a-entity>
+    <a-entity position="5.2 0.35 1.8" geometry="primitive:cylinder;height:0.75;radius:0.01"></a-entity>
+    <a-entity position="5.2 0.35 1" geometry="primitive:cylinder;height:0.75;radius:0.01"></a-entity>
+
 
 
 </a-scene>
