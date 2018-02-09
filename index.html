@@ -8,47 +8,49 @@
 </head>
 
 <body >
+<script>
+    AFRAME.registerComponent('sun-position-setter', {
+        init: function () {
+            var skyEl = this.el;
+            var orbitEl = this.el.sceneEl.querySelector('#orbit');
 
+            orbitEl.addEventListener('componentchanged', function changeSun (evt) {
+                var sunPosition;
+                var phi;
+                var theta;
+
+                if (evt.detail.name !== 'rotation') { return; }
+
+                sunPosition = orbitEl.getAttribute('rotation');
+
+                if(sunPosition === null) { return; }
+
+                theta = Math.PI * (- 0.5);
+                phi = 2 * Math.PI * (sunPosition.y / 360 - 0.5);
+                //Debugging position
+                //console.log(Math.cos(phi), Math.sin(phi) * Math.sin(theta))
+                skyEl.setAttribute('material', 'sunPosition', {
+                    x: Math.cos(phi),
+                    y: Math.sin(phi) * Math.sin(theta),
+                    z: -1
+                });
+            });
+        }
+    });
+</script>
 <a-scene physics>
+    <a-assets>
+        <a-asset-item id="dog" src="images/dog_with_bomb/scene.gltf"></a-asset-item>
+    </a-assets>
         <!-- Player -->
         <a-entity camera="userHeight: 1.6"
                   universal-controls
                   kinematic-body>
-            <a-asserts>
-            <a-asset-item id="dog" src="images/dog_with_bomb/scene.gltf"></a-asset-item>
-            </a-asserts>
-            <a-entity raycaster="far:150;objects:.intersectable" cursor="" geometry="primitive:ring;radiusOuter:0.015;radiusInner:0.01" material="color:#283644;shader:flat"></a-entity>
+
+            <a-entity raycaster="far:150;objects:.intersectable" cursor geometry="primitive:ring;radiusOuter:0.015;radiusInner:0.01" material="color:#283644;shader:flat" position="0 0 -0.75"></a-entity>
         </a-entity>
-    <script>
-        AFRAME.registerComponent('sun-position-setter', {
-            init: function () {
-                var skyEl = this.el;
-                var orbitEl = this.el.sceneEl.querySelector('#orbit');
 
-                orbitEl.addEventListener('componentchanged', function changeSun (evt) {
-                    var sunPosition;
-                    var phi;
-                    var theta;
 
-                    if (evt.detail.name !== 'rotation') { return; }
-
-                    sunPosition = orbitEl.getAttribute('rotation');
-
-                    if(sunPosition === null) { return; }
-
-                    theta = Math.PI * (- 0.5);
-                    phi = 2 * Math.PI * (sunPosition.y / 360 - 0.5);
-                    //Debugging position
-                    //console.log(Math.cos(phi), Math.sin(phi) * Math.sin(theta))
-                    skyEl.setAttribute('material', 'sunPosition', {
-                        x: Math.cos(phi),
-                        y: Math.sin(phi) * Math.sin(theta),
-                        z: -1
-                    });
-                });
-            }
-        });
-    </script>
 
 
 
@@ -62,8 +64,8 @@
 
 
     <!--pillars -->
-    <<a-cylinder position="7.846 1.6 19.925" raidus="0.5" height="3.2" color="#804040"  geometry="radius:0.1;height:1.2"  ></a-cylinder>
-    <a-cylinder position="4.244 1.6 19.93" radius="0.5" height="3.2" color="#804040"  geometry="radius:0.1;height:1.2"  ></a-cylinder>
+    <<a-cylinder position="7.846 1.6 19.925" raidus="0.5" height="3.2" color="#804040"  geometry="radius:0.1;height:1.2"></a-cylinder>
+    <a-cylinder position="4.244 1.6 19.93" radius="0.5" height="3.2" color="#804040"  geometry="radius:0.1;height:1.2"></a-cylinder>
 
     <!-- banner -->
     <a-box color="#004040" position="6.061 2.052 19.536" rotation="0 90 0" depth="2.5" height="1" width="2"  geometry="depth:3.5;height:0.5;width:0.5"  ></a-box>
@@ -109,7 +111,7 @@
     <a-light type="spot" color="#F5F5F5" position="-11.633 -1.319 69.044" light="type:ambient"></a-light>
 
     <!-- floor-->
-    <a-entity position="0 -0.1 3.6" rotation="90 90 90" geometry="height:7.4;width:12;depth:0.2" mixin="null"material="repeat:12 2;roughness:1;src:images/floor.jpg"></a-entity>
+    <a-entity position="0 -0.1 3.6" rotation="90 90 90" geometry="height:7.4;width:12;depth:0.2" mixin="null" material="repeat:12 2;roughness:1;src:images/floor.jpg"></a-entity>
 
 
     <!--sofa-->
@@ -131,7 +133,7 @@
 
 
     <!--countertops-->
-    <a-entity position="2.5 0.4 2.2" geometry="height:0.8;width:2;depth:0.6"material="repeat:12 2;roughness:1;src:images/counters.jpg"></a-entity>
+    <a-entity position="2.5 0.4 2.2" geometry="height:0.8;width:2;depth:0.6" material="repeat:12 2;roughness:1;src:images/counters.jpg"></a-entity>
     <a-entity position="2.5 0.4 0.4" geometry="depth:0.6;height:0.8;width:2" material="repeat:12 2;roughness:1;src:images/counters.jpg"></a-entity>
     <a-entity position="2.5 2.8 0.4" geometry="depth:0.6;height:0.8;width:2"></a-entity>
 
