@@ -2,7 +2,7 @@
 
 ## Build Your Own House
 
-**Grading:**
+**Grading:**  
 For a C, you need to:
 * ~~Customize the TTU Computer Science VR showroom into your dream house with your own style of floor and ceiling~~
 * ~~Have at least unique 10 models at appropriate locations~~
