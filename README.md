@@ -14,7 +14,7 @@ For a B, you need to:
 * ~~You should be able to navigate around the space~~
 
 For a A, you need to:
-* ~~Interact with certain objects: Click to trigger a sound track or a song, OR
+* ~~Interact with certain objects: Click to trigger a sound track or a song, or
 Add one dynamic object (moving model, such as a dog or an avatar)~~
 
 
