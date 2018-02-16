@@ -3,7 +3,7 @@
     <title>Example 10.02 - Bump maps</title>
     <script src="js/aframe.min.js"></script>
     <script src="js/sky.js"></script>
-    <!--<script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v1.14.0/dist/aframe-extras.min.js"></script>-->
+
     <script src="http://cdn.rawgit.com/donmccurdy/aframe-extras/v3.13.1/dist/aframe-extras.min.js"></script>
     <!--Include resonance dependencies-->
     <script src="https://cdn.jsdelivr.net/npm/resonance-audio/build/resonance-audio.min.js"></script>
@@ -58,8 +58,17 @@
         <a-asset-item id="swing" src="images/swing/scene.gltf"></a-asset-item>
     </a-assets>
 
+    <a-assets>
+        <a-asset-item id="hoop" src="images/hoop/scene.gltf"></a-asset-item>
+    </a-assets>
 
-        <!-- Player -->
+    <a-assets>
+        <a-asset-item id="bottle" src="images/bottle/scene.gltf"></a-asset-item>
+    </a-assets>
+
+
+
+    <!-- Player -->
         <a-entity camera="userHeight: 1.6"
                   universal-controls
                  >
@@ -94,7 +103,7 @@
 
 
     <!--plane-->
-    <a-entity static-body="sphereRadius:NaN" geometry="depth:300;height:0.1;width:300" position="2.859 -0.022 7.506" material="shader:flat;side:double;src:images/ground.jpeg"></a-entity>
+    <a-entity static-body="sphereRadius:NaN" geometry="depth:300;height:0.1;width:300" position="2.859 -0.022 7.506" material="shader:flat;side:double;src:images/ground.jpeg" repeat: 12 2;></a-entity>
 
 
     <!-- Ceiling -->
@@ -124,12 +133,11 @@
     <a-entity static-body="sphereRadius:NaN" geometry="depth:0.2;height:3.2;width:3.6" position="1.4 1.6 5.3" material="repeat:12 2;roughness:1;src:images/wall.jpg" rotation="0 90 0"></a-entity>
 
     <a-entity static-body="sphereRadius:NaN" geometry="depth:0.2;height:3.2;width:7" position="5.9 1.6 3.6" material="repeat:12 2;roughness:1;src:images/wall.jpg" rotation="0 90 0"></a-entity>
-    <a-entity static-body="sphereRadius:NaN" geometry="depth:0.2;height:3.2;width:7" position="-6.026 1.6 3.6" material="repeat:12 2;roughness:1;src:images/wall.jpg" rotation="0 90 0"></a-entity>
+    <a-entity static-body="sphereRadius:NaN" geometry="depth:0.2;height:3.2;width:7.1" position="-6.026 1.6 3.6" material="repeat:12 2;roughness:1;src:images/wall.jpg" rotation="0 90 0"></a-entity>
 
 
 
-    <!--light-->
-   <!-- <a-light type="spot" color="#F5F5F5" position="-11.633 -1.319 69.044" light="type:ambient"></a-light>  -->
+
 
     <!-- floor-->
     <a-entity position="0 -0.1 3.6" rotation="90 90 90" geometry="height:7.4;width:12;depth:0.2" mixin="null" material="repeat:12 2;roughness:1;src:images/floor.jpg"></a-entity>
@@ -146,7 +154,14 @@
 
     <a-entity position="0 3.3 3.6" rotation="90 90 90" visible="false" geometry="depth:0.2;height:7.4;width:12" mixin="null"></a-entity>
 
-    <a-entity position="4.8 0.75 1.4" geometry="height:0.02;depth:0.9;width:0.9"></a-entity>
+
+    <!--table-->
+    <a-entity position="4.8 0.75 1.4" geometry="height:0.02;depth:0.9;width:0.9" material="color:white "></a-entity>
+    <a-entity position="4.4 0.35 1" geometry="radius:0.01;height:0.75;primitive:cylinder" material="color:red "></a-entity>
+    <a-entity position="4.4 0.35 1.8" geometry="primitive:cylinder;height:0.75;radius:0.01" material="color:red"></a-entity>
+    <a-entity position="5.2 0.35 1.8" geometry="primitive:cylinder;height:0.75;radius:0.01" material="color:red"></a-entity>
+    <a-entity position="5.2 0.35 1" geometry="primitive:cylinder;height:0.75;radius:0.01"  material="color:red"></a-entity>
+
 
     <!-- dog-->
     <a-entity gltf-model="#dog" position="-8.06 -0.09 11.41" rotation="0 180 0"  scale="0.02 0.02 0.02"></a-entity>
@@ -154,12 +169,19 @@
 
 
     <!--bed-->
-    <a-entity gltf-model="images/bed/scene.gltf" position="-4.66 -0.2 6.362" rotation="0 90 0" scale="0.09 0.09 0.09"></a-entity>
+    <a-entity gltf-model="images/bed/scene.gltf" position="-4.79 0.139 6.241" rotation="0 90 0" scale="0.09 0.09 0.09"></a-entity>
 
     <!--countertops-->
     <a-entity position="2.5 0.4 2.2" geometry="height:0.8;width:2;depth:0.6" material="repeat:12 2;roughness:1;src:images/counters.jpg"></a-entity>
     <a-entity position="2.5 0.4 0.4" geometry="depth:0.6;height:0.8;width:2" material="repeat:12 2;roughness:1;src:images/counters.jpg"></a-entity>
     <a-entity position="2.5 2.8 0.4" geometry="depth:0.6;height:0.8;width:2"></a-entity>
+    <!--bottle-->
+    <a-entity gltf-model="images/bottle/scene.gltf" position="2.632 0.891 0.318" scale="0.015 0.015 0.015"></a-entity>
+    <a-entity gltf-model="images/bottle/scene.gltf" position="1.839 0.891 0.418" scale="0.015 0.015 0.015"></a-entity>
+    <a-entity gltf-model="images/bottle/scene.gltf" position="2.192 0.891 0.522" scale="0.015 0.015 0.015"></a-entity>
+
+
+
 
     <!-- TV-->
     <a-entity position="1.55 1.2 5.2" rotation="0 90 0" geometry="depth:0.1;height:0.6;width:1.2" material="repeat:12 2;roughness:1;src:images/tv.jpeg" ></a-entity>
@@ -176,10 +198,7 @@
 
     <a-entity static-body="sphereRadius:NaN" geometry="depth:0.2;height:0.5;width:5" position="-10.537 0.139 -6.334" material="repeat:12 2;roughness:1;src:images/ceramic_floor.jpg"></a-entity>
     <a-entity static-body="sphereRadius:NaN" geometry="depth:0.2;height:0.5;width:5.15" position="-10.71 0.164 -21.855" material="repeat:12 2;roughness:1;src:images/ceramic_floor.jpg"></a-entity>
-    <a-entity position="4.4 0.35 1" geometry="radius:0.01;height:0.75;primitive:cylinder"></a-entity>
-    <a-entity position="4.4 0.35 1.8" geometry="primitive:cylinder;height:0.75;radius:0.01"></a-entity>
-    <a-entity position="5.2 0.35 1.8" geometry="primitive:cylinder;height:0.75;radius:0.01"></a-entity>
-    <a-entity position="5.2 0.35 1" geometry="primitive:cylinder;height:0.75;radius:0.01"></a-entity>
+
 
     <!--Setup lighting-->
     <a-light type="directional" color="grey" position="-0.5 1 1" angle="60" decay="1" intensity=".6" light=""></a-light>
@@ -208,15 +227,34 @@
     <a-resonance-room src-position="0.693 1.337 6.775" src="images/canon.mp3" loop="true", autoplay="true", width="4" height="3" depth="3.8" helper="false"></a-resonance-room>
 
     <!-- chair-->
-    <a-entity gltf-model="images/chair/scene.gltf" position="4.019 0.506 1.351" rotation="0 90 0" scale="0.01 0.01 0.01"></a-entity>
-    <a-entity gltf-model="images/chair/scene.gltf" position="4.839 0.663 2.403" rotation="0 180 0" scale="0.01 0.01 0.01"></a-entity>
-    <a-entity gltf-model="images/chair/scene.gltf" position="4.839 0.663 0.528" rotation="0 360 0" scale="0.01 0.01 0.01"></a-entity>
+    <a-entity gltf-model="images/chair/scene.gltf" position="4.108 0.506 1.351" rotation="0 90 0" scale="0.01 0.01 0.01"></a-entity>
+    <a-entity gltf-model="images/chair/scene.gltf" position="4.837 0.663 2.321" rotation="0 180 0" scale="0.01 0.01 0.01"></a-entity>
+    <a-entity gltf-model="images/chair/scene.gltf" position="5.493 0.663 1.447" rotation="0 270 0" scale="0.01 0.01 0.01"></a-entity>
+    <a-entity gltf-model="images/chair/scene.gltf" position="4.773 0.509 0.528" rotation="0 360 0" scale="0.01 0.01 0.01"></a-entity>
 
     <!--umbrella-->
-    <a-entity gltf-model="images/beach_umbrella/scene.gltf" position="2.862 -0.83 -23.9" rotation="5 0 " scale="0.1 0.1 0.1"></a-entity>
+    <a-entity gltf-model="images/beach_umbrella/scene.gltf" position="2.862 0.313 -23.9" rotation="5 0 " scale="0.1 0.1 0.1"></a-entity>
 
     <!--swing-->
     <a-entity gltf-model="images/swing/scene.gltf" position="-0.62 1.305 -23" rotation="0 0 0" scale="1.5 1.5 1.5"></a-entity>
+
+
+    <!-- basketball-->
+    <a-camera>
+        <a-cursor color="#ffba70" position="0 0 -1"></a-cursor>
+    </a-camera>
+
+    <a-sphere position="15.97 1.063 -18.035" material="repeat:3 2;roughness:1;src:images/basketball.jpg" scale="0.8 0.8 0.8" geometry="">
+
+        <a-animation attribute="position" from="10.636 1.063 -12.74" to="10.636 5.609 -12.74" dur="2000" direction="alternate" repeat="indefinite" begin="click"></a-animation>
+    </a-sphere>
+
+    <a-entity gltf-model="images/hoop/scene.gltf" position="22.518 1.063 -18.226" rotation="0 270 0" scale="0.3 0.3 0.3"></a-entity>
+
+
+
+
+
 
 </a-scene>
 
