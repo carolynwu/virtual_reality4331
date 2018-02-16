@@ -2,7 +2,7 @@
 
 ## Build Your Own House
 
-**Grading:**  
+### **Grading:**  
 For a C, you need to:
 * ~~Customize the TTU Computer Science VR showroom into your dream house with your own style of floor and ceiling~~
 * ~~Have at least unique 10 models at appropriate locations~~
@@ -18,9 +18,9 @@ For a A, you need to:
 Add one dynamic object (moving model, such as a dog or an avatar)~~
 
 
-external model sources
-* table  
-* bed
+### **External Model Sources**
+1 dog  https://sketchfab.com/models/dadb71216dbc4dcfbdd8baee9bdf3ce0
+2 bed
 * room  
 
 
