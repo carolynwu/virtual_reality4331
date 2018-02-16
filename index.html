@@ -66,6 +66,10 @@
         <a-asset-item id="bottle" src="images/bottle/scene.gltf"></a-asset-item>
     </a-assets>
 
+    <a-assets>
+        <a-asset-item id="remote" src="images/remote/scene.gltf"></a-asset-item>
+    </a-assets>
+
 
 
     <!-- Player -->
@@ -73,7 +77,7 @@
                   universal-controls
                  >
 
-            <a-entity raycaster="far:150;objects:.intersectable" cursor geometry="primitive:ring;radiusOuter:0.015;radiusInner:0.01" material="color:#283644;shader:flat" position="0 0 -0.75"></a-entity>
+            <a-entity raycaster="far:150;objects:.intersectable" material="color:#283644;shader:flat" position="0 0 -0.75"></a-entity>
         </a-entity>
 
 
@@ -186,6 +190,9 @@
     <!-- TV-->
     <a-entity position="1.55 1.2 5.2" rotation="0 90 0" geometry="depth:0.1;height:0.6;width:1.2" material="repeat:12 2;roughness:1;src:images/tv.jpeg" ></a-entity>
 
+
+    <!--remote-->
+    <a-entity gltf-model="images/remote/scene.gltf" position="3.646 0.687 4.919" scale="0.0025 0.0025 0.003" rotation="270 270 270"></a-entity>
    <!-- TV cabinet-->
     <a-entity position="1.7 0.25 5.2" rotation="0 90 0" geometry="width:1.5;depth:0.4;height:0.45" material="repeat:12 2;roughness:1;src:images/tc.jpg"></a-entity>
 
@@ -221,7 +228,7 @@
 
 
     <!--Add light switch entity-->
-    <a-box onclick="setLight()" material="src:[object HTMLImageElement];side:double" width="16" height="22" depth="1" position="3.1 2.231 7.102" rotation="0 0 0" scale="0.024 0.024 0.024" static-body="sphereRadius:NaN" class="intersectable" geometry=""></a-box>
+    <a-box onclick="setLight()" material="src:[object HTMLImageElement];side:double;material:grey " width="16" height="22" depth="1" position="3.1 2.231 7.102" rotation="0 0 0" scale="0.024 0.024 0.024" static-body="sphereRadius:NaN" class="intersectable" geometry=""></a-box>
 
     <!--Resonant body that plays positional sound!-->
     <a-resonance-room src-position="0.693 1.337 6.775" src="images/canon.mp3" loop="true", autoplay="true", width="4" height="3" depth="3.8" helper="false"></a-resonance-room>
