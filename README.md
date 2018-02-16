@@ -5,7 +5,6 @@
 
 external model sources
 ```
-<ul>
-<li> 1</li>
-</ul>
+* 1
+* 2
 https://carolynwu.github.io/virtual_reality4331/
