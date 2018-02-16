@@ -5,7 +5,7 @@
 
 external model sources
 ```
-- 1a
-* 2Zazaqx
-* 3aa
+* 昵称：果冻虾仁  
+* 别名：隔壁老王  
+* 英文名：Jelly  
 https://carolynwu.github.io/virtual_reality4331/
