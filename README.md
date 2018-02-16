@@ -9,13 +9,13 @@ For a C, you need to:
 * ~~Have appropriate lighting. Do not give me a dark screen.~~
 
 For a B, you need to:
-* Add an additional 5 unique models
-* Give the user control over the lighting
-* You should be able to navigate around the space
+* ~~Add an additional 5 unique models~~
+* ~~Give the user control over the lighting~~
+* ~~You should be able to navigate around the space~~
 
 For a A, you need to:
-* Interact with certain objects: Click to trigger a sound track or a song, OR
-* Add one dynamic object (moving model, such as a dog or an avatar)
+* ~~Interact with certain objects: Click to trigger a sound track or a song, OR
+Add one dynamic object (moving model, such as a dog or an avatar)~~
 
 
 external model sources
