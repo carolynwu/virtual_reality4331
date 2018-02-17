@@ -4,7 +4,7 @@
     <script src="js/aframe.min.js"></script>
     <script src="js/sky.js"></script>
 
-    <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v3.13.1/dist/aframe-extras.min.js"></script>
+    <!--script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v3.13.1/dist/aframe-extras.min.js"></script>-->
     <!--Include resonance dependencies-->
     <script src="https://cdn.jsdelivr.net/npm/resonance-audio/build/resonance-audio.min.js"></script>
     <script src="js/res-room.js"></script>
@@ -76,9 +76,9 @@
 
     <!-- Player -->
     <a-entity position="54 1.5 12">
-        <a-camera universal-controls>
+        <a-camera position="54 1.5 12" universal-controls>
             <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
-                              radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat" position="0 0 -0.75"></a-entity>
+                              radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat" position="0 0 0"></a-entity>
         </a-camera>
     </a-entity>
 
@@ -239,7 +239,7 @@
 
 
     <!--Add light switch entity-->
-    <a-box onclick="setLight()" material="src:[object HTMLImageElement];side:double;material:grey " width="16" height="22" depth="1" position="3.1 2.231 7.102" rotation="0 0 0" scale="0.024 0.024 0.024" static-body="sphereRadius:NaN" class="intersectable" geometry=""></a-box>
+    <a-box onclick="setLight()" material="side:double;material:grey " width="16" height="22" depth="1" position="3.1 2.231 7.102" rotation="0 0 0" scale="0.024 0.024 0.024" static-body="sphereRadius:NaN" class="intersectable" geometry=""></a-box>
 
     <!--Resonant body that plays positional sound!-->
     <a-resonance-room src-position="0.693 1.337 6.775" src="images/canon.mp3" loop="true", autoplay="true", width="4" height="3" depth="3.8" helper="false"></a-resonance-room>
