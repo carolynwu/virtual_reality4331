@@ -27,8 +27,8 @@ Add one dynamic object (moving model, such as a dog or an avatar)~~
 6 counter top  
 7 table  
 8 swimming pool  
-9 basketball 
-10 swith  
+9 basketball  
+10 switch  
 11coffee table  https://sketchfab.com/models/475cfd550f3648178efdf98152a4bc390    
 12dog  https://sketchfab.com/models/dadb71216dbc4dcfbdd8baee9bdf3ce00    
 13chair https://sketchfab.com/models/d2785b57e7da45858f2fe8bf4dedd68d   
