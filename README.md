@@ -37,10 +37,10 @@ Add one dynamic object (moving model, such as a dog or an avatar)~~
 12 tv remote https://sketchfab.com/models/67a5956349574fac8431b9b12aad8b81    
 13 bottle https://sketchfab.com/models/833ef9cea519454fb1d249154b830f04    
 
-### ** bedroom**
+### **bedroom**
 14 bed  https://sketchfab.com/models/86d5c8b1addf4f138d8f0c2cf06e9ba0 
 
-### ** outdoor **
+### **outdoor**
 15 swimming pool  
 16 basketball   
 17 swing  https://sketchfab.com/models/da0fe69537504073badaa3c44db50030   
