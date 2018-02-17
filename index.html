@@ -4,13 +4,13 @@
     <script src="js/aframe.min.js"></script>
     <script src="js/sky.js"></script>
 
-    <!--script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v3.13.1/dist/aframe-extras.min.js"></script>-->
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v3.13.1/dist/aframe-extras.min.js"></script>
     <!--Include resonance dependencies-->
     <script src="https://cdn.jsdelivr.net/npm/resonance-audio/build/resonance-audio.min.js"></script>
     <script src="js/res-room.js"></script>
 </head>
 
-<body >
+<body>
 <script>
     AFRAME.registerComponent('sun-position-setter', {
         init: function () {
@@ -75,10 +75,10 @@
 
 
     <!-- Player -->
-    <a-entity position="54 1.5 12">
-        <a-camera position="54 1.5 12" universal-controls>
+    <a-entity position="0 0 0">
+        <a-camera universal-controls>
             <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
-                              radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat" position="0 0 0"></a-entity>
+                              radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat" position="0 0 -0.75"></a-entity>
         </a-camera>
     </a-entity>
 
@@ -268,9 +268,6 @@
 
 
 
-
-
 </a-scene>
-
 </body>
 </html>
