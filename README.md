@@ -36,6 +36,7 @@ Add one dynamic object (moving model, such as a dog or an avatar)~~
 11 chair https://sketchfab.com/models/d2785b57e7da45858f2fe8bf4dedd68d     
 12 tv remote https://sketchfab.com/models/67a5956349574fac8431b9b12aad8b81    
 13 bottle https://sketchfab.com/models/833ef9cea519454fb1d249154b830f04    
+![living room](https://user-images.githubusercontent.com/22507322/36346795-e4d8e120-140b-11e8-986d-cdaab7afc6aa.PNG)
 
 ### **bedroom**
 14 bed  https://sketchfab.com/models/86d5c8b1addf4f138d8f0c2cf06e9ba0 
