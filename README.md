@@ -49,6 +49,7 @@ Add one dynamic object (moving model, such as a dog or an avatar)~~
 17 swing  https://sketchfab.com/models/da0fe69537504073badaa3c44db50030   
 18 umbrella  https://sketchfab.com/models/e0c0ad33836d488da98ba8c4f807b1fe      
 19 basketball hoop  https://sketchfab.com/models/b882a4fd9e554e76924f55eac40d69c8 
+![outdoor](https://user-images.githubusercontent.com/22507322/36346805-2228bd98-140c-11e8-8de7-82903389292e.PNG)
 
 
 https://carolynwu.github.io/virtual_reality4331/
