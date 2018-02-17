@@ -37,19 +37,15 @@ Add one dynamic object (moving model, such as a dog or an avatar)~~
 12 tv remote https://sketchfab.com/models/67a5956349574fac8431b9b12aad8b81    
 13 bottle https://sketchfab.com/models/833ef9cea519454fb1d249154b830f04    
 
+### *** bedroom***
+14 bed  https://sketchfab.com/models/86d5c8b1addf4f138d8f0c2cf06e9ba0 
 
-14 swimming pool  
-15 basketball  
- 
-
-12   
-
-     
-15bed  https://sketchfab.com/models/86d5c8b1addf4f138d8f0c2cf06e9ba0    
-   
-17swing  https://sketchfab.com/models/da0fe69537504073badaa3c44db50030   
-18umbrella  https://sketchfab.com/models/e0c0ad33836d488da98ba8c4f807b1fe      
-19basketball hoop  https://sketchfab.com/models/b882a4fd9e554e76924f55eac40d69c8 
+### *** outdoor ***
+15 swimming pool  
+16 basketball   
+17 swing  https://sketchfab.com/models/da0fe69537504073badaa3c44db50030   
+18 umbrella  https://sketchfab.com/models/e0c0ad33836d488da98ba8c4f807b1fe      
+19 basketball hoop  https://sketchfab.com/models/b882a4fd9e554e76924f55eac40d69c8 
 
 
 https://carolynwu.github.io/virtual_reality4331/
