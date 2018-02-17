@@ -41,7 +41,7 @@
         }
     });
 </script>
-<a-scene physics>
+<a-scene >
     <a-assets>
         <a-asset-item id="dog" src="images/dog_with_bomb/scene.gltf"></a-asset-item>
     </a-assets>
@@ -75,12 +75,12 @@
 
 
     <!-- Player -->
-        <a-entity camera="userHeight: 1.6"
-                  universal-controls
-                 >
-
-            <a-entity raycaster="far:150;objects:.intersectable" material="color:#283644;shader:flat" position="0 0 -0.75"></a-entity>
-        </a-entity>
+    <a-entity position="54 1.5 12">
+        <a-camera universal-controls>
+            <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
+                              radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat" position="0 0 -0.75"></a-entity>
+        </a-camera>
+    </a-entity>
 
 
 
@@ -258,10 +258,6 @@
 
 
     <!-- basketball-->
-    <a-camera>
-        <a-cursor color="#ffba70" position="0 0 -1"></a-cursor>
-    </a-camera>
-
     <a-sphere position="15.97 1.063 -18.035" material="repeat:3 2;roughness:1;src:images/basketball.jpg" scale="0.8 0.8 0.8" geometry="">
 
         <a-animation attribute="position" from="10.636 1.063 -12.74" to="10.636 5.609 -12.74" dur="2000" direction="alternate" repeat="indefinite" begin="click"></a-animation>
