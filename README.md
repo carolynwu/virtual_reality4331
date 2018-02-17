@@ -40,6 +40,8 @@ Add one dynamic object (moving model, such as a dog or an avatar)~~
 
 ### **bedroom**
 14 bed  https://sketchfab.com/models/86d5c8b1addf4f138d8f0c2cf06e9ba0 
+![bed](https://user-images.githubusercontent.com/22507322/36346802-0f9d1bb0-140c-11e8-886a-7020fbdf355e.PNG)
+
 
 ### **outdoor**
 15 swimming pool  
