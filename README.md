@@ -27,16 +27,17 @@ Add one dynamic object (moving model, such as a dog or an avatar)~~
 6 counter top  
 7 table  
 8 swimming pool  
-9 basketball    
-10 coffee table  https://sketchfab.com/models/475cfd550f3648178efdf98152a4bc39  
-11 dog  https://sketchfab.com/models/dadb71216dbc4dcfbdd8baee9bdf3ce0  
-12 chair https://sketchfab.com/models/d2785b57e7da45858f2fe8bf4dedd68d      
-13 bottle https://sketchfab.com/models/833ef9cea519454fb1d249154b830f04  
-14 bed  https://sketchfab.com/models/86d5c8b1addf4f138d8f0c2cf06e9ba0  
-15 tv remote https://sketchfab.com/models/67a5956349574fac8431b9b12aad8b81      
-16 swing  https://sketchfab.com/models/da0fe69537504073badaa3c44db50030   
-17 umbrella  https://sketchfab.com/models/e0c0ad33836d488da98ba8c4f807b1fe      
-18 basketball hoop  https://sketchfab.com/models/b882a4fd9e554e76924f55eac40d69c8 
+9 basketball 
+10 swith  
+11coffee table  https://sketchfab.com/models/475cfd550f3648178efdf98152a4bc39  0
+12dog  https://sketchfab.com/models/dadb71216dbc4dcfbdd8baee9bdf3ce0  0
+13chair https://sketchfab.com/models/d2785b57e7da45858f2fe8bf4dedd68d      
+14bottle https://sketchfab.com/models/833ef9cea519454fb1d249154b830f04  
+15bed  https://sketchfab.com/models/86d5c8b1addf4f138d8f0c2cf06e9ba0  
+16tv remote https://sketchfab.com/models/67a5956349574fac8431b9b12aad8b81      
+17swing  https://sketchfab.com/models/da0fe69537504073badaa3c44db50030   
+18umbrella  https://sketchfab.com/models/e0c0ad33836d488da98ba8c4f807b1fe      
+19basketball hoop  https://sketchfab.com/models/b882a4fd9e554e76924f55eac40d69c8 
 
 
 https://carolynwu.github.io/virtual_reality4331/
