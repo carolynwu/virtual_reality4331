@@ -19,26 +19,34 @@ Add one dynamic object (moving model, such as a dog or an avatar)~~
 
 
 ## **External Model Sources**
-### ***in front of the hose***
+### *** in front of the house***
 1 house plate  
 2 dog  https://sketchfab.com/models/dadb71216dbc4dcfbdd8baee9bdf3ce00 
 ![in_front_of_door](https://user-images.githubusercontent.com/22507322/36346696-ee6e9a20-1408-11e8-9316-86404e9e804e.PNG)
 
+### *** living room ***
+3 TV    
+4 TV cabinet    
+5 kitchen cabinet   
+6 counter top   
+7 table 
+8 swith  
+9 sofa  
+10 coffee table  https://sketchfab.com/models/475cfd550f3648178efdf98152a4bc390  
+11 chair https://sketchfab.com/models/d2785b57e7da45858f2fe8bf4dedd68d     
+12 tv remote https://sketchfab.com/models/67a5956349574fac8431b9b12aad8b81    
+13 bottle https://sketchfab.com/models/833ef9cea519454fb1d249154b830f04    
 
-3 TV  
-4 TV cabinet  
-5 kitchen cabinet  
-6 counter top  
-7 table  
-8 swimming pool  
-9 basketball  
-10 switch  
-11coffee table  https://sketchfab.com/models/475cfd550f3648178efdf98152a4bc390    
+
+14 swimming pool  
+15 basketball  
+ 
+
 12   
-13chair https://sketchfab.com/models/d2785b57e7da45858f2fe8bf4dedd68d   
-14bottle https://sketchfab.com/models/833ef9cea519454fb1d249154b830f04        
+
+     
 15bed  https://sketchfab.com/models/86d5c8b1addf4f138d8f0c2cf06e9ba0    
-16tv remote https://sketchfab.com/models/67a5956349574fac8431b9b12aad8b81      
+   
 17swing  https://sketchfab.com/models/da0fe69537504073badaa3c44db50030   
 18umbrella  https://sketchfab.com/models/e0c0ad33836d488da98ba8c4f807b1fe      
 19basketball hoop  https://sketchfab.com/models/b882a4fd9e554e76924f55eac40d69c8 
