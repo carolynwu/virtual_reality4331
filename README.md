@@ -19,8 +19,11 @@ Add one dynamic object (moving model, such as a dog or an avatar)~~
 
 
 ### **External Model Sources**
+### ***in front of the hose***
 1 house plate  
-2 sofa  
+2 dog  https://sketchfab.com/models/dadb71216dbc4dcfbdd8baee9bdf3ce00 
+
+
 3 TV  
 4 TV cabinet  
 5 kitchen cabinet  
@@ -30,7 +33,7 @@ Add one dynamic object (moving model, such as a dog or an avatar)~~
 9 basketball  
 10 switch  
 11coffee table  https://sketchfab.com/models/475cfd550f3648178efdf98152a4bc390    
-12dog  https://sketchfab.com/models/dadb71216dbc4dcfbdd8baee9bdf3ce00    
+12   
 13chair https://sketchfab.com/models/d2785b57e7da45858f2fe8bf4dedd68d   
 14bottle https://sketchfab.com/models/833ef9cea519454fb1d249154b830f04        
 15bed  https://sketchfab.com/models/86d5c8b1addf4f138d8f0c2cf06e9ba0    
