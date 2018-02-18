@@ -1,11 +1,15 @@
-# virtual_reality4331
+# CS4331 -Virtual_Reality4331 Project1
 
 ## Build Your Own House
 
 
 Demo link :arrow_forward: https://carolynwu.github.io/virtual_reality4331/
 
-### **Grading:**  
+## Features:
+
+
+
+## **Grading:**  
 For a C, you need to:
 * ~~Customize the TTU Computer Science VR showroom into your dream house with your own style of floor and ceiling~~
 * ~~Have at least unique 10 models at appropriate locations~~
