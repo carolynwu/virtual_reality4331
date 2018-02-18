@@ -55,7 +55,8 @@ Reference :arrow_forward: https://www.youtube.com/watch?v=SyU9dEt7tNs
  <a-box material="color:tomato;transparent:true;opacity:0" depth="2" height="2" width="2" sound="src: url(images/dog_sound.mp3); on: click" class="intersectable" position="-8.06 -0.117 11.41"></a-box>
 ```
 
-:zap: background music
+:zap: 
+background music
 Reference  :arrow_forward:  https://github.com/etiennepinchon/aframe-resonance
 
 ## **Grading:**  
