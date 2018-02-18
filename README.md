@@ -6,7 +6,7 @@
 Demo link :arrow_forward: https://carolynwu.github.io/virtual_reality4331/
 
 ## Features:
-:key: language: a-frame :heavy_plus_sign: three.js :heavy_plus_sign: JavaScript
+:key: Language:  a-frame:heavy_plus_sign: three.js :heavy_plus_sign: JavaScript   
 :zap:SKY
 ![2018-02-17_21-02-47](https://user-images.githubusercontent.com/22507322/36347805-8406d1f2-1426-11e8-88fe-6f5ea17db593.gif)
 ```
