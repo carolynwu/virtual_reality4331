@@ -50,7 +50,21 @@ Reference :arrow_forward: https://www.youtube.com/watch?v=SyU9dEt7tNs
 
 :zap: switch the light  
 ![2018-02-18_14-22-41](https://user-images.githubusercontent.com/22507322/36356399-3e21b9d6-14b7-11e8-88b2-8afb8178e93f.gif)
-
+use javascript to change the color from grey to white.
+```
+ <script>
+        function setLight(){
+            var light = document.querySelector('#main-light');
+            var current_color = light.getAttribute('color');
+            if (current_color == 'grey'){
+                light.setAttribute('color', 'white');
+            }
+            else{
+                light.setAttribute('color', 'grey');
+            }
+        }
+    </script>
+```
 
 :zap:  trigged dog's sound
 
