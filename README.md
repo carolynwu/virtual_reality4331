@@ -41,6 +41,8 @@ Demo link :arrow_forward: https://carolynwu.github.io/virtual_reality4331/
 ```
 
 :zap: ball can move 
+![2018-02-17_21-17-07](https://user-images.githubusercontent.com/22507322/36347857-12c563b2-1428-11e8-96f0-e723544382e8.gif)
+
 
 
 ## **Grading:**  
