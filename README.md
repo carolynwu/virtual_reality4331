@@ -2,6 +2,8 @@
 
 ## Build Your Own House
 
+https://carolynwu.github.io/virtual_reality4331/
+
 ### **Grading:**  
 For a C, you need to:
 * ~~Customize the TTU Computer Science VR showroom into your dream house with your own style of floor and ceiling~~
@@ -56,4 +58,4 @@ backgorund music: http://freemusicarchive.org/music/Kevin_MacLeod/Classical_Samp
 ![outdoor](https://user-images.githubusercontent.com/22507322/36346805-2228bd98-140c-11e8-8de7-82903389292e.PNG)
 
 
-https://carolynwu.github.io/virtual_reality4331/
+
