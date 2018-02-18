@@ -74,6 +74,9 @@
 
 
 
+    <a-assets>
+        <img src='images/switch.jpg' id='switch' crossorigin="anonymous">
+    </a-assets>
 
 
     <!-- Player -->
@@ -238,7 +241,7 @@
 
 
     <!--Add light switch entity-->
-    <a-box onclick="setLight()" material="side:double;material:grey " width="16" height="22" depth="1" position="3.1 2.231 7.102" rotation="0 0 0" scale="0.024 0.024 0.024" static-body="sphereRadius:NaN" class="intersectable" geometry=""></a-box>
+    <a-box onclick="setLight()" material="src: #switch; side: double; repeat: 1 1" width="16" height="22" depth="1" position="3.1 2.231 7.102" rotation="0 0 0" scale="0.024 0.024 0.024" static-body="sphereRadius:NaN" class="intersectable" geometry=""></a-box>
 
     <!--Resonant body that plays positional sound!-->
     <a-resonance-room src-position="0.693 1.337 6.775" src="images/canon.mp3" loop="true", autoplay="true", width="4" height="3" depth="3.8" helper="false"></a-resonance-room>
@@ -264,8 +267,9 @@
 
     <a-entity gltf-model="images/hoop/scene.gltf" position="22.518 1.063 -18.226" rotation="0 270 0" scale="0.3 0.3 0.3"></a-entity>
 
-
-
+    <!--textfield-->
+    <a-text value="Click the ball!" position="12.08 1.901 -20.28" width="15" color="#000000" text="">  </a-text>
+    <a-text value="swith the light!" position="1.346 2.052 10.765" width="10" color="#000000" text="">  </a-text>
 
 </a-scene>
 </body>
