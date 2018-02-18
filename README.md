@@ -44,6 +44,8 @@ Demo link :arrow_forward: https://carolynwu.github.io/virtual_reality4331/
 ![2018-02-17_21-17-07](https://user-images.githubusercontent.com/22507322/36347857-12c563b2-1428-11e8-96f0-e723544382e8.gif)  
 Reference :arrow_forward: https://www.youtube.com/watch?v=SyU9dEt7tNs
 
+:zap: switch the light
+![2018-02-18_14-22-41](https://user-images.githubusercontent.com/22507322/36356399-3e21b9d6-14b7-11e8-88b2-8afb8178e93f.gif)
 
 
 
