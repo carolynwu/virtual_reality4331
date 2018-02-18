@@ -6,7 +6,7 @@
 Demo link :arrow_forward: https://carolynwu.github.io/virtual_reality4331/
 
 ## Features:
-SKY
+:zap: SKY
 ![2018-02-17_21-02-47](https://user-images.githubusercontent.com/22507322/36347805-8406d1f2-1426-11e8-88fe-6f5ea17db593.gif)
 ```
   <script>
@@ -14,7 +14,6 @@ SKY
           init: function () {
             var skyEl = this.el;
             var orbitEl = this.el.sceneEl.querySelector('#orbit');
-
             orbitEl.addEventListener('componentchanged', function changeSun (evt) {
                 var sunPosition;
                 var phi;
