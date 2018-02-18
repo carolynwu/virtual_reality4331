@@ -48,6 +48,13 @@ Reference :arrow_forward: https://www.youtube.com/watch?v=SyU9dEt7tNs
 ![2018-02-18_14-22-41](https://user-images.githubusercontent.com/22507322/36356399-3e21b9d6-14b7-11e8-88b2-8afb8178e93f.gif)
 
 
+:zap:  trigged dog's sound
+
+```
+ <a-entity gltf-model="#dog" position="-8.06 -0.09 11.41" rotation="0 180 0"  scale="0.02 0.02 0.02"></a-entity>
+    <a-box material="color:tomato;transparent:true;opacity:0" depth="2" height="2" width="2" sound="src: url(images/dog_sound.mp3); on: click" class="intersectable" position="-8.06 -0.117 11.41"></a-box>
+```
+
 
 ## **Grading:**  
 For a C, you need to:
