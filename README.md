@@ -36,7 +36,7 @@ dog sound: https://www.zapsplat.com/sound-effect-category/dogs/
 :seven: table 
 :eight: swith  
 :nine: sofa  
-:keycap_ten: coffee table  https://sketchfab.com/models/475cfd550f3648178efdf98152a4bc390  
+:ten: coffee table  https://sketchfab.com/models/475cfd550f3648178efdf98152a4bc390  
 :keycap_eleven: chair https://sketchfab.com/models/d2785b57e7da45858f2fe8bf4dedd68d     
 :keycap_twelve: tv remote https://sketchfab.com/models/67a5956349574fac8431b9b12aad8b81    
 :keycap_thirteen: bottle https://sketchfab.com/models/833ef9cea519454fb1d249154b830f04    
