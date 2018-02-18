@@ -7,12 +7,14 @@ Demo link :arrow_forward: https://carolynwu.github.io/virtual_reality4331/
 
 ## Features:
 :key: Language:  a-frame:heavy_plus_sign: three.js :heavy_plus_sign: JavaScript  
-:key: add models  
+:key: add models using 
+```
 <a-assets>
         <a-asset-item id="id" src="src/src/scene.gltf"></a-asset-item>
-</a-assets>   
-<a-entity gltf-model="a_entity/model/scene.gltf" position="0 0 0" rotation="0 0 0" scale="0 0 0"></a-entity>
+</a-assets>  
 
+<a-entity gltf-model="a_entity/model/scene.gltf" position="0 0 0" rotation="0 0 0" scale="0 0 0"></a-entity>
+```
 
 :zap:SKY
 ![2018-02-17_21-02-47](https://user-images.githubusercontent.com/22507322/36347805-8406d1f2-1426-11e8-88fe-6f5ea17db593.gif)
