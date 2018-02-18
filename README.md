@@ -48,10 +48,12 @@ Reference :arrow_forward: https://www.youtube.com/watch?v=SyU9dEt7tNs
 :zap: switch the light  
 ![2018-02-18_14-22-41](https://user-images.githubusercontent.com/22507322/36356399-3e21b9d6-14b7-11e8-88b2-8afb8178e93f.gif)
 ```
- <a-animation attribute="position" from="10.636 1.063 -12.74" to="10.636 5.609 -12.74" dur="2000" direction="alternate" repeat="indefinite" ``` html
+ <a-animation attribute="position" from="10.636 1.063 -12.74" to="10.636 5.609 -12.74" dur="2000" direction="alternate" repeat="indefinite" 
+ ``` javascript
  begin="click" 
- ```></a-animation>
-
+ ```
+ ></a-animation>
+```
 
 :zap:  trigged dog's sound
 
