@@ -52,7 +52,7 @@ Reference :arrow_forward: https://www.youtube.com/watch?v=SyU9dEt7tNs
 
 ```
  <a-entity gltf-model="#dog" position="-8.06 -0.09 11.41" rotation="0 180 0"  scale="0.02 0.02 0.02"></a-entity>
-    <a-box material="color:tomato;transparent:true;opacity:0" depth="2" height="2" width="2" sound="src: url(images/dog_sound.mp3); on: click" class="intersectable" position="-8.06 -0.117 11.41"></a-box>
+ <a-box material="color:tomato;transparent:true;opacity:0" depth="2" height="2" width="2" sound="src: url(images/dog_sound.mp3); on: click" class="intersectable" position="-8.06 -0.117 11.41"></a-box>
 ```
 
 
