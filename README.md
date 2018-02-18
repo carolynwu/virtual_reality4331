@@ -45,7 +45,7 @@ Demo link :arrow_forward: https://carolynwu.github.io/virtual_reality4331/
 ```
  <a-animation attribute="position" from="10.636 1.063 -12.74" to="10.636 5.609 -12.74" dur="2000" direction="alternate" repeat="indefinite" begin="click" ></a-animation>
 ```
-use ```begin="click"``` and it will interact with cursor
+use ```begin="click"``` and it will interact with cursor  
 Reference :arrow_forward: https://www.youtube.com/watch?v=SyU9dEt7tNs
 
 :zap: switch the light  
