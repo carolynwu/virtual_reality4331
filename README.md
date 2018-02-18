@@ -8,6 +8,7 @@ Demo link :arrow_forward: https://carolynwu.github.io/virtual_reality4331/
 ## Features:
 SKY
 ![2018-02-17_21-02-47](https://user-images.githubusercontent.com/22507322/36347805-8406d1f2-1426-11e8-88fe-6f5ea17db593.gif)
+```
   <script>
   AFRAME.registerComponent('sun-position-setter', {
           init: function () {
@@ -38,7 +39,7 @@ SKY
         }
     });
 </script>
-
+```
 
 
 ## **Grading:**  
