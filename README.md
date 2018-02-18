@@ -3,7 +3,7 @@
 ## Build Your Own House
 
 
-Demo :arrow_right: https://carolynwu.github.io/virtual_reality4331/
+Demo :arrow_forward: https://carolynwu.github.io/virtual_reality4331/
 
 ### **Grading:**  
 For a C, you need to:
