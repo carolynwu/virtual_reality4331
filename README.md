@@ -3,7 +3,8 @@
 ## Build Your Own House
 
 
-Demo link :arrow_forward: https://carolynwu.github.io/virtual_reality4331/
+Demo link :arrow_forward: https://carolynwu.github.io/virtual_reality4331/      
+Video :point_right: :point_right: https://www.youtube.com/watch?v=y7DYMudcT2c&feature=youtu.be  :point_left: :point_left:
 
 ## Features:
 :key: Language:  a-frame:heavy_plus_sign: three.js :heavy_plus_sign: JavaScript  
